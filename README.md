@@ -22,10 +22,6 @@ Saya ingin script ini dapat untuk dipelajari semua orang bagi yang belum tau ten
 - Halaman Login,register dan user
 - dan lain sebagainya
 
-## Demo
-Anda bisa membuka demo di sini  <a href="https://beta-tester.ayoobelajar.com/beranda" target="_blank">lihat</a>
-
-
 
 ## 🧑 Author
 
