@@ -1,0 +1,23 @@
+Options All -Indexes
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^login ../login.php [NC,L]
+</IfModule>
+
+RewriteEngine On
+RewriteRule ^url/([a-zA-Z0-9-/]+)$ delete.php?id=$1
+RewriteRule ^url/([a-zA-Z-0-9-]+)/ delete.php?id=$1
+
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php

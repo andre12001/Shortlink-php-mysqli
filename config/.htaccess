@@ -1,0 +1,28 @@
+Options All -Indexes
+
+<Files config.php>
+    order allow,deny
+    deny from all
+</Files>
+
+<Files ConfigUrl.php>
+    order allow,deny
+    deny from all
+</Files>
+
+<Files url.php>
+    order allow,deny
+    deny from all
+</Files>
+
+
+<Files UrlClassUser.php>
+    order allow,deny
+    deny from all
+</Files>
+
+
+<Files UrlClassVisitor.php>
+    order allow,deny
+    deny from all
+</Files>
